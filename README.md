@@ -23,7 +23,7 @@
   
 <h2>SPFPC Select List Line Commands - File Manager</h2>
 <BR>
-</pre>
+<pre>
   B  Browse a file
   C  Copy a file
   D  Delete a file
@@ -43,7 +43,7 @@
   
 <h2>SPFPC Edit Commands</h2>
 <BR>
-</pre>
+<pre>
   &          Keep command displayed after it is executed
   :          Treat primary command as line command
   AUTOLIST   Create a source listing after END or [F3]
@@ -114,7 +114,7 @@
   
 <h2>SPFPC Edit Line Commands</h2>
 <BR>
-</pre>
+<pre>
 
   <     Data shift left.
   <<    Block data shift left.
@@ -161,7 +161,7 @@
   
 <h2>SPFPC ISREDIT Macro Commands</h2>
 <BR>
-  </pre>
+  <pre>
   AUTOLIST       Set or retrieve the AUTOLIST profile variable.
   AUTONUM        Set or retrieve the AUTONUM profile variable.
   AUTOSAVE       Set or retrieve the AUTOSAVE profile variable.
@@ -270,7 +270,7 @@
   
 <h2>SPFPC ISPEXEC COMMANDS</h2>
 <BR>
-  </pre>
+  <pre>
   ADDPOP         Display a panel as a sub-window on the current panel.
   BROWSE         Browse a file (or files).
   CONTROL        Set dialog processing options.
@@ -319,7 +319,7 @@
   
 <h2>ZVARIABLES</h2>
 <BR>
-  </pre>
+  <pre>
   Name    Service  Ver Pool Type Len   Description
  -------- -------- --- ---- ---- ---  -------------------------------------
  Z        general  2.3 shr  non    0  null variable, used as a placeholder
@@ -485,7 +485,7 @@
  
 <h2>SPFPC REXX Special Variables</h2>
 <BR>
-  </pre>
+  <pre>
 
  RC        Return code 0 = success <> 0 error occured
  RESULT    Contains returned value from called routine
@@ -495,7 +495,7 @@
            
 <h2>SPFPC REXX Trace Processing</h2>
 <BR>
-  </pre>
+  <pre>
    TRACE A  /* TRACE ALL CLAUSES   */
    TRACE C  /* TRACE COMMANDS      */
    TRACE E  /* TRACE ERRORS        */
@@ -539,7 +539,7 @@
 </pre><BR>
 <h2>SPFPC REXX Instrinsic Instructions</h2>
 <BR>
-  </pre>
+  <pre>
  ADDRESS    set the destination for external commands
  ARG        retrieve parameters passed to function
  CALL       invoke a function
@@ -564,7 +564,7 @@
 </pre><BR>
   <H2>SPFPC REXX Built-in Functions</h2>
 <BR>
-  </pre>
+  <pre>
  ABBREV     return TRUE/FALSE, is short string part of long string?
  ABS        return the absolute value of a number without a sign
  ADDRESS    return the name of the external command processor
@@ -635,7 +635,7 @@
 </pre><BR>
 <h2>SPFPC Intrinsic Commands</h2>
 <BR>
-  </pre>
+ <pre>
  CMD
  CMDNOCLR
  CRETRIEV
@@ -664,7 +664,7 @@
  
 <h2>Typical PF Key Settings</h2>
 <BR>
-  </pre>
+ <pre>
   3270   PC         Command      Does
   -----  ---------  -----------  ---------------------------------------------------------
   PF01   F1         HELP         Call SPFPC Built-In Help Library
@@ -695,7 +695,7 @@
   </pre><BR>  
 <h2>SPF/PC Features</h2>
 <BR>
-  </pre>
+ <pre>
 Auto source code backup
 Auto save during edit
 Background/Foreground? compiler and utility support
@@ -743,7 +743,7 @@ Many more features
   </pre><BR>  
   <h2>SPFPC Start-up Parameters (CLI)</h2>
 <BR>
-  </pre>
+ <pre>
    Invoke SPFPC with parameters to bypass the Primary Option Panel and go
    directly to a specific option:
 
