@@ -319,7 +319,7 @@
   
 <h2>ZVARIABLES</h2>
 <BR>
-  <pre>
+<pre>
   Name    Service  Ver Pool Type Len   Description
  -------- -------- --- ---- ---- ---  -------------------------------------
  Z        general  2.3 shr  non    0  null variable, used as a placeholder
@@ -483,9 +483,10 @@
  ZYEAR    date     2.3 shr  non    2  2 character year
  </pre><BR>
  
+ 
 <h2>SPFPC REXX Special Variables</h2>
 <BR>
-  <pre>
+<pre>
 
  RC        Return code 0 = success <> 0 error occured
  RESULT    Contains returned value from called routine
@@ -495,7 +496,7 @@
            
 <h2>SPFPC REXX Trace Processing</h2>
 <BR>
-  <pre>
+<pre>
    TRACE A  /* TRACE ALL CLAUSES   */
    TRACE C  /* TRACE COMMANDS      */
    TRACE E  /* TRACE ERRORS        */
@@ -537,9 +538,11 @@
    pressing Control/Break interrupts the procedure, typing exit terminates
    the procedure.
 </pre><BR>
+  
+  
 <h2>SPFPC REXX Instrinsic Instructions</h2>
 <BR>
-  <pre>
+<pre>
  ADDRESS    set the destination for external commands
  ARG        retrieve parameters passed to function
  CALL       invoke a function
@@ -562,9 +565,12 @@
  TRACE      trace REXX interpreter actions
   
 </pre><BR>
-  <H2>SPFPC REXX Built-in Functions</h2>
+  
+  
+<H2>SPFPC REXX Built-in Functions</h2>
 <BR>
-  <pre>
+<pre>
+
  ABBREV     return TRUE/FALSE, is short string part of long string?
  ABS        return the absolute value of a number without a sign
  ADDRESS    return the name of the external command processor
@@ -633,9 +639,12 @@
  X2D        returns decimal value, input hex char string
 
 </pre><BR>
+  
+  
 <h2>SPFPC Intrinsic Commands</h2>
 <BR>
- <pre>
+<pre>
+
  CMD
  CMDNOCLR
  CRETRIEV
@@ -664,7 +673,7 @@
  
 <h2>Typical PF Key Settings</h2>
 <BR>
- <pre>
+<pre>
   3270   PC         Command      Does
   -----  ---------  -----------  ---------------------------------------------------------
   PF01   F1         HELP         Call SPFPC Built-In Help Library
@@ -693,9 +702,11 @@
   PF23 = <Shift>F11 Right        Scroll screen right
   PF24 = <Shift>F12 RETRIEVE     Redisplay previous primary commands
   </pre><BR>  
+  
+  
 <h2>SPF/PC Features</h2>
 <BR>
- <pre>
+<pre>
 Auto source code backup
 Auto save during edit
 Background/Foreground? compiler and utility support
@@ -741,9 +752,11 @@ User defineable keyboard and keyboard macros
 User modifiable help system
 Many more features
   </pre><BR>  
-  <h2>SPFPC Start-up Parameters (CLI)</h2>
+  
+<h2>SPFPC Start-up Parameters (CLI)</h2>
 <BR>
- <pre>
+<pre>
+
    Invoke SPFPC with parameters to bypass the Primary Option Panel and go
    directly to a specific option:
 
@@ -763,4 +776,4 @@ Many more features
                                       /SPGM(external-program-name)[PARM(values)]
        [/T]                           Turn on profile trace
        [/n.n]                         Goto panel id n.n
-</pre>
+</pre><BR>
