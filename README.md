@@ -1,8 +1,9 @@
 <h1>SPF/PC Line and Panel Commands</h1>
 
-
+<BR><BR>
 <h2>SPFPC Select List Primary Commands - File Manager</h2>
-
+<BR>
+<pre>  
   Select
   Browse
   Edit
@@ -17,10 +18,12 @@
   User (apply user command)
   Convert (one format to another)
   Exclude (prune list)
-  
+ </pre>
+  <BR><BR>
   
 <h2>SPFPC Select List Line Commands - File Manager</h2>
-
+<BR>
+  </pre>
   B  Browse a file
   C  Copy a file
   D  Delete a file
@@ -36,10 +39,11 @@
   T  Create a recursive sublist
   U  Apply a user command to a file
   X  Exclude a file from the list
-  
+ </pre><BR? 
   
 <h2>SPFPC Edit Commands</h2>
-
+<BR>
+  </pre>
   &          Keep command displayed after it is executed
   :          Treat primary command as line command
   AUTOLIST   Create a source listing after END or [F3]
@@ -106,7 +110,11 @@
   UNNUM      Reset numbers to blanks
   UP         Scroll view of file up
   XMACRO     Sets exit macro name in the edit profile
-SPFPC Edit Line Commands
+</pre><BR>  
+  
+<h2>SPFPC Edit Line Commands</h2>
+<BR>
+  </pre>
 
   <     Data shift left.
   <<    Block data shift left.
@@ -149,10 +157,11 @@ SPFPC Edit Line Commands
   X     Exclude.
   XX    Exclude block.
   .     Label assignment.
-  
+ </pre><BR> 
   
 <h2>SPFPC ISREDIT Macro Commands</h2>
-
+<BR>
+  </pre>
   AUTOLIST       Set or retrieve the AUTOLIST profile variable.
   AUTONUM        Set or retrieve the AUTONUM profile variable.
   AUTOSAVE       Set or retrieve the AUTOSAVE profile variable.
@@ -257,10 +266,11 @@ SPFPC Edit Line Commands
   USER_STATE     Saves or restores user state information.
   XMACRO         Set or retrieve the XMACRO profile variable.
   XSTATUS        Sets or retrieves exclude status of specified data line.
-  
+</pre><BR>  
   
 <h2>SPFPC ISPEXEC COMMANDS</h2>
-
+<BR>
+  </pre>
   ADDPOP         Display a panel as a sub-window on the current panel.
   BROWSE         Browse a file (or files).
   CONTROL        Set dialog processing options.
@@ -305,10 +315,11 @@ SPFPC Edit Line Commands
   TBVCLEAR       Clear variables in the current row.
   VGET           Copy non-function pool var to function pool.
   VPUT           Copy function pool var to non-function pool.
-  
+</pre><BR>  
   
 <h2>ZVARIABLES</h2>
-
+<BR>
+  </pre>
   Name    Service  Ver Pool Type Len   Description
  -------- -------- --- ---- ---- ---  -------------------------------------
  Z        general  2.3 shr  non    0  null variable, used as a placeholder
@@ -470,16 +481,21 @@ SPFPC Edit Line Commands
  ZVERB    general  2.3 shr  out    8  command table verb (from SETVERB)
  ZWINTTL  general  3.1 any  in    N/A window title for pop-up window frame
  ZYEAR    date     2.3 shr  non    2  2 character year
-SPFPC REXX Special Variables
+ </pre><BR>
+ 
+<h2>SPFPC REXX Special Variables</h2>
+<BR>
+  </pre>
 
  RC        Return code 0 = success <> 0 error occured
  RESULT    Contains returned value from called routine
  SIGL      Contains procedure name and line number of calling function
            whenever a control flow jump is made via CALL or SIGNAL.
-           
+</pre><BR>           
            
 <h2>SPFPC REXX Trace Processing</h2>
-
+<BR>
+  </pre>
    TRACE A  /* TRACE ALL CLAUSES   */
    TRACE C  /* TRACE COMMANDS      */
    TRACE E  /* TRACE ERRORS        */
@@ -520,9 +536,10 @@ SPFPC REXX Special Variables
    If during testing of a procedure, a loop occurs and tracing is not active,
    pressing Control/Break interrupts the procedure, typing exit terminates
    the procedure.
-
+</pre><BR>
 <h2>SPFPC REXX Instrinsic Instructions</h2>
-
+<BR>
+  </pre>
  ADDRESS    set the destination for external commands
  ARG        retrieve parameters passed to function
  CALL       invoke a function
@@ -543,8 +560,11 @@ SPFPC REXX Special Variables
  SELECT     multiple condition list (aka CASE)
  SIGNAL     set error trapping conditions
  TRACE      trace REXX interpreter actions
-SPFPC REXX Built-in Functions
-
+  
+</pre><BR>
+  <H2>SPFPC REXX Built-in Functions</h2>
+<BR>
+  </pre>
  ABBREV     return TRUE/FALSE, is short string part of long string?
  ABS        return the absolute value of a number without a sign
  ADDRESS    return the name of the external command processor
@@ -612,9 +632,10 @@ SPFPC REXX Built-in Functions
  X2C        returns ASCII (or EBCDIC) char string, input hex char string
  X2D        returns decimal value, input hex char string
 
-
+</pre><BR>
 <h2>SPFPC Intrinsic Commands</h2>
-
+<BR>
+  </pre>
  CMD
  CMDNOCLR
  CRETRIEV
@@ -639,10 +660,11 @@ SPFPC REXX Built-in Functions
  STACKDIS
  SWAP
  VSPLIT
- 
+</pre><BR> 
  
 <h2>Typical PF Key Settings</h2>
-
+<BR>
+  </pre>
   3270   PC         Command      Does
   -----  ---------  -----------  ---------------------------------------------------------
   PF01   F1         HELP         Call SPFPC Built-In Help Library
@@ -670,9 +692,10 @@ SPFPC REXX Built-in Functions
   PF22 = <Shift>F10 BACKBOX.SPF  Calls REXX macro to create line box
   PF23 = <Shift>F11 Right        Scroll screen right
   PF24 = <Shift>F12 RETRIEVE     Redisplay previous primary commands
-  
+  </pre><BR>  
 <h2>SPF/PC Features</h2>
-
+<BR>
+  </pre>
 Auto source code backup
 Auto save during edit
 Background/Foreground? compiler and utility support
@@ -717,8 +740,10 @@ User switchable editor line numbers or not
 User defineable keyboard and keyboard macros
 User modifiable help system
 Many more features
-SPFPC Start-up Parameters (CLI)
-
+  </pre><BR>  
+  <h2>SPFPC Start-up Parameters (CLI)</h2>
+<BR>
+  </pre>
    Invoke SPFPC with parameters to bypass the Primary Option Panel and go
    directly to a specific option:
 
@@ -738,3 +763,4 @@ SPFPC Start-up Parameters (CLI)
                                       /SPGM(external-program-name)[PARM(values)]
        [/T]                           Turn on profile trace
        [/n.n]                         Goto panel id n.n
+</pre>
