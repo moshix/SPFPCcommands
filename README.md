@@ -39,7 +39,7 @@
   T  Create a recursive sublist
   U  Apply a user command to a file
   X  Exclude a file from the list
- </pre><BR? 
+ </pre><BR>
   
 <h2>SPFPC Edit Commands</h2>
 <BR>
