@@ -23,7 +23,7 @@
   
 <h2>SPFPC Select List Line Commands - File Manager</h2>
 <BR>
-  </pre>
+</pre>
   B  Browse a file
   C  Copy a file
   D  Delete a file
@@ -39,11 +39,11 @@
   T  Create a recursive sublist
   U  Apply a user command to a file
   X  Exclude a file from the list
- </pre><BR>
+</pre><BR>
   
 <h2>SPFPC Edit Commands</h2>
 <BR>
-  </pre>
+</pre>
   &          Keep command displayed after it is executed
   :          Treat primary command as line command
   AUTOLIST   Create a source listing after END or [F3]
@@ -114,7 +114,7 @@
   
 <h2>SPFPC Edit Line Commands</h2>
 <BR>
-  </pre>
+</pre>
 
   <     Data shift left.
   <<    Block data shift left.
