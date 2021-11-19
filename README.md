@@ -1,3 +1,4 @@
+<a href="https://github.com/codenotary/cas"><img src="https://raw.githubusercontent.com/codenotary/cas/master/extra/badge/secured-by-cas.svg" width="109px;"/></a>
 <h1>SPF/PC Line and Panel Commands</h1>
 
 <BR><BR>
